@@ -31,36 +31,36 @@ public class test {
 		selfcount = 0;
 		ccount = 0;
 		// 2-1录入玩家信息
-		System.out.println("请输入您的大名:");
+		System.out.println("请输入您的名字:");
 		name = input.next();
 		// 2-2录入对手信息
-		System.out.println("欢迎您'" + name + "':\n请选择您的对手");
+		System.out.println("欢迎您'" + name + "':\n请选择对手");
 		do {
 			flag = false;
 
-			System.out.println("1---文广");
-			System.out.println("2---康乐");
-			System.out.println("3---建辉");
-			System.out.println("4---晓辉");
+			System.out.println("1---AAA");
+			System.out.println("2---BBB");
+			System.out.println("3---CCC");
+			System.out.println("4---DDD");
 			int key = input.nextInt();
 			switch (key) {
 			case 1: {
-				cname = "文广";
+				cname = "AAA";
 				flag = true;
 				break;
 			}
 			case 2: {
-				cname = "康乐";
+				cname = "BBB";
 				flag = true;
 				break;
 			}
 			case 3: {
-				cname = "建辉";
+				cname = "CCC";
 				flag = true;
 				break;
 			}
 			case 4: {
-				cname = "晓辉";
+				cname = "DDD";
 				flag = true;
 				break;
 			}
